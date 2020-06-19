@@ -1,7 +1,7 @@
 #!/bin/bash
 
-if [ "$# " -ne 3 ]; then
-    echo "$0 url_dir train test"
+if [ "$# " -lt 2 ]; then
+    echo "$0 url_dir train [test]"
     exit -1
 fi
 
